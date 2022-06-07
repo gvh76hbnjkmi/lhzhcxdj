@@ -2,7 +2,7 @@ export default {
   async fetch(request, env) {
     let url = new URL(request.url);
     if (url.pathname.startsWith('/')) {
-      url.hostname = 'yhg6t6hbkl.herokuapp.com'
+      url.hostname = 'tgf56gbnjj.herokuapp.com'
       let new_request = new Request(url, request);
       return fetch(new_request);
     }
